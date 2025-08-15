@@ -1,0 +1,364 @@
+body {
+    background-color: #026135; /* Cor dominante (60%) */
+    color: #FFFFFF; /* Cor de destaque (10%) para os textos */
+    font-family: 'Google Sans Code', sans-serif; /* Fonte secundária para todo o texto */
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* ==================================== */
+/* Estilos para o cabeçalho (Header) */
+/* ==================================== */
+header {
+    background-color: #1C222E;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+header h1 {
+    font-family: 'Google Sans Code', sans-serif;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin: 0;
+    float: left; /* Alinha o título à esquerda */
+}
+
+.foto.redonda {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    float: left; /* Alinha a foto à esquerda, ao lado do título */
+    margin-left: 250px;
+}
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px; /* Adiciona espaçamento entre os links */
+}
+
+nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #026135;
+}
+
+    
+/* Estilo para a imagem de perfil no Header */
+
+
+---
+
+
+
+/* ==================================== */
+/* Estilos para a seção Hero */
+/* ==================================== */
+
+
+.hero h1 {
+    font-family: 'Mozilla Headline', sans-serif;
+    color: #FFFFFF;
+    font-size: 3em;
+   
+}
+
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin-top: 40px; /* Centraliza o parágrafo */
+    margin-left: 500px;
+}
+
+.heroimagem {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    
+    border: 5px solid #FFFFFF; /* Adiciona uma borda branca */
+}
+
+.ctabutton {
+    display: inline-block; /* Permite estilizar como um botão */
+    background-color: #FFFFFF; /* Cor de destaque para o botão */
+    color: #1C222E; /* Cor do texto do botão */
+    font-family: 'Mozilla Headline', sans-serif;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px; /* Deixa o botão arredondado */
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.ctabutton:hover {
+    background-color: #026135;
+    color: #FFFFFF;
+
+
+}
+
+#sobre-mim {
+   
+    margin-top: 120px;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.sobrecaixa{ 
+    background-color: #1C222E; /* A caixa de dentro fica na cor 30% */
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza a caixa na página */
+    padding: 40px;
+    border-radius: 10px; /* Borda arredondada para a caixa */
+}
+
+
+
+#sobre-mim h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#sobre-mim p {
+    font-family: 'Google Sans Code', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+
+
+
+#curiosidades {
+    margin-top: 130px;
+    padding: 50px 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+.curiosidadescaixa {
+    background-color: #1C222E; /* A caixa de dentro fica na cor azul escuro */
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza a caixa na página */
+    padding: 40px;
+    border-radius: 10px; /* Borda arredondada para a caixa */
+}
+
+#curiosidades h2 {
+    font-family: 'Google Sans Code', sans-serif;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#curiosidades ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+    margin: 0;
+}
+
+#curiosidades li {
+    display: block; /* Esta linha resolve o problema, garantindo que os itens fiquem um abaixo do outro */
+    padding: 5px 0;
+    font-size: 1.1em;
+    text-align: left; /* Alinha o texto de cada item para a esquerda */
+}
+
+
+
+
+
+#causos {
+    margin-top: 140px;
+    padding: 80px 20px;
+    text-align: center;
+}
+.causoscaixa{ 
+    background-color: #1C222E; /* A caixa de dentro fica na cor 30% */
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza a caixa na página */
+    padding: 40px;
+    border-radius: 10px; /* Borda arredondada para a caixa */
+}
+
+
+
+#causos h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+#causos p {
+    font-family: 'Google Sans Code', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+
+#portfolio h2 {
+    margin-top: 150px;
+    font-family: 'Google Sans Code', sans-serif;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.card-grid {
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.card {
+    background-color: #1C222E;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+    width: 45%; /* Define a largura para dois cartões por linha */
+    display: inline-block; /* Faz os cartões ficarem lado a lado */
+    vertical-align: top;
+    
+}
+
+
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    color: #FFFFFF;
+    font-family: 'Google Sans Code', sans-serif;
+    padding: 15px;
+    margin: 0;
+}
+
+.card p {
+    color: #FFFFFF;
+    font-size: 1em;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+
+
+
+#rotina {
+    
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#rotina h2 {
+    font-family: 'Google Sans Code', sans-serif;
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.rotinatabela {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto; /* Para garantir que a tabela caiba em telas pequenas */
+}
+
+#rotina table {
+    width: 100%;
+    background-color: #1C222E; /* Cor de fundo da tabela (30%) */
+    color: #FFFFFF;
+}
+
+#rotina th,
+#rotina td {
+    padding: 12px 15px;
+    border: 1px solid #026135; /* Cor da borda da tabela (60%) */
+    text-align: center;
+    font-family: 'Google Sans Code', sans-serif;
+
+}
+
+
+#footer {
+    background-color: #1C222E;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    overflow: hidden; /* Garante que o footer contenha as colunas flutuantes */
+}
+
+.footer-column {
+    width: 33.33%; /* Define a largura de cada coluna */
+    float: left; /* Alinha a coluna à esquerda */
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#footer h3 {
+    font-family: 'Google Sans Code', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+#footer a:hover {
+    color: #026135;
+}
+
+.social-icons a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.social-icons a:hover {
+    background-color: #FFFFFF;
+    color: #1C222E;
+}
